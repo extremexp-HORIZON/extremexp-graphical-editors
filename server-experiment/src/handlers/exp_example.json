@@ -1,0 +1,91 @@
+[
+{
+  "_id": ObjectId(
+  "699b2b54690f9f6fad9a8f3a"
+  ),
+  "id_experiment": "ilias-2589a9aa-3117-4143-ad41-6ba6b66ab6ba-1771776852",
+  "name": "Experiment1",
+  "create_at": NumberInt(1771776852),
+  "update_at": NumberInt(1771838429),
+  "steps": [
+    {
+      "collapsed": false,
+      "executionOrder": NumberInt(1),
+      "id": "step-1771776861895",
+      "name": "one",
+      "spaces": [
+        {
+          "gridSearchEnabled": true,
+          "id": "space-1771776863907",
+          "name": "New Space",
+          "searchMethod": "grid",
+          "status": "idle",
+          "steps": [
+            {
+              "id": "task-9K7W0Xk8dWH3gnFdicok9-1771776869529",
+              "name": "task13",
+              "tasks": [
+                {
+                  "description": "no description",
+                  "hyperParameters": [
+                  ],
+                  "id": "variant-1-mqg3rWLCx8iAciH9FkgNn",
+                  "implementationRef": "",
+                  "name": "task13",
+                  "selected": true,
+                  "type": "algorithm"
+                }
+              ],
+              "type": "task"
+            }
+          ],
+          "workflow_id": "ilias-6aca9eff-75cb-4c64-ae23-16565a87d691-1771776089"
+        }
+      ],
+      "status": "idle",
+      "type": "container"
+    },
+    {
+      "id": "step-1771838426353",
+      "name": "second",
+      "type": "container",
+      "spaces": [
+      ],
+      "collapsed": false,
+      "status": "idle",
+      "executionOrder": NumberInt(2)
+    }
+  ]
+},
+{
+  "created_at": "2026-02-22 14:47:34.837543 +00:00",
+  "updated_at": "2026-02-23 09:48:03.428254 +00:00",
+  "id": "019c85d1-f2b5-72a6-99cd-2ca0f692ae62",
+  "user_id": "019c85b7-00d1-7c2f-b173-f5d076721149",
+  "name": "TestExp1",
+  "steps": [
+    {
+      "id": "step-1771839927066",
+      "name": "first",
+      "type": "container",
+      "spaces": [
+        {
+          "id": "space-1771840030964",
+          "name": "New Space",
+          "steps": [],
+          "status": "idle",
+          "searchMethod": "evolutionary",
+          "gridSearchEnabled": true
+        }
+      ],
+      "status": "idle",
+      "collapsed": false,
+      "executionOrder": 1
+    }
+  ],
+  "graphical_model": {
+    "edges": [],
+    "nodes": []
+  }
+}
+]
